@@ -1,0 +1,13 @@
+.card{
+    width: 200px !important;
+    height: 200px;
+}
+
+// home-card
+
+.home-cards{
+    display: grid;
+    color: black;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
