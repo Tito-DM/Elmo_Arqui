@@ -1,0 +1,7 @@
+.img-gallery{
+    display: grid;
+  
+    & img{
+        width: 200px;
+    }
+}

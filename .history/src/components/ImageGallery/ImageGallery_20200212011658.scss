@@ -1,0 +1,10 @@
+.img-gallery{
+    display: grid;
+    margin: 20px;
+    grid-gap: 0;
+    padding: 0;
+    grid-template-columns: repeat(4,1fr);
+    & img{
+        width: 200px;
+    }
+}
