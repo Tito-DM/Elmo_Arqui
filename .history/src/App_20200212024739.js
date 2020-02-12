@@ -5,7 +5,7 @@ import FloatButtom from "../src/components/FloatButtom/FloatButtom";
 import HomeCardList1 from "./components/HomeCard/HomeCardList1";
 import HomeCardList2 from "./components/HomeCard/HomeCardList2";
 import ImageGallery from "../src/components/ImageGallery/ImageGallery";
-import Footer from "../src/components/Footer/Footer";
+import Footer from "../src/components/Footer/"
 import "./App.scss";
 
 function App() {
@@ -19,7 +19,6 @@ function App() {
 				<HomeCardList2 />
 			</div>
 			<FloatButtom />
-			<Footer/>
 		</div>
 	);
 }

@@ -16,7 +16,6 @@ const ImageGallery = ()=>{
             <img src={Img4} alt=''/>
             <img src={Img5} alt=''/>
             <img src={Img5} alt=''/>
-            <img src={Img4} alt=''/>
             <img src={Img5} alt=''/>
             <img src={slideImg1} alt=''/>
             

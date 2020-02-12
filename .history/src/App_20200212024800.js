@@ -19,7 +19,7 @@ function App() {
 				<HomeCardList2 />
 			</div>
 			<FloatButtom />
-			<Footer/>
+			<Footer
 		</div>
 	);
 }

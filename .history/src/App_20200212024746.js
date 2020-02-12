@@ -19,7 +19,6 @@ function App() {
 				<HomeCardList2 />
 			</div>
 			<FloatButtom />
-			<Footer/>
 		</div>
 	);
 }
