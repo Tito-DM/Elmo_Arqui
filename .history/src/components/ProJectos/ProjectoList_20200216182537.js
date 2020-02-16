@@ -62,10 +62,10 @@ const ProjectoList = () => {
 		));
 	} else if (id == "Decoração") {
 		proj = cards.map((card) => (
-			<Projectos title="decoracao" img={card.img} pro={id} />
+			<Projectos title="Escritorio" img={card.img} pro={id} />
 		));
 	} else {
-		proj = <div>ROUTE NOT FOUND</div>;
+        <div>"</div>
 	}
 
 	return (

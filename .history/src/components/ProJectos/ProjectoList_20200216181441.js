@@ -9,7 +9,6 @@ import ImageGallery from "../ImageGallery/ImageGallery";
 
 const ProjectoList = () => {
 	let { id } = useParams();
-	let proj;
 
 	const [cards] = useState([
 		{
@@ -52,26 +51,16 @@ const ProjectoList = () => {
 		}
 	]);
 
-	if (id == "Casas") {
-		proj = cards.map((card) => (
-			<Projectos title={card.title} img={card.img} pro={id} />
-		));
-	} else if (id == "Escritório") {
-		proj = cards.map((card) => (
-			<Projectos title="Escritorio" img={card.img} pro={id} />
-		));
-	} else if (id == "Decoração") {
-		proj = cards.map((card) => (
-			<Projectos title="decoracao" img={card.img} pro={id} />
-		));
-	} else {
-		proj = <div>ROUTE NOT FOUND</div>;
-	}
-
 	return (
 		<Fragment>
 			<NavBar />
-			{proj}
+			{cards.map((card) =>
+				id == "Casas" ? (
+					<Projectos title={card.title} img={card.img} pro={id} />
+				) : (
+					<Projectos title="escritorio" img={card.img} pro={id} />
+				)
+			)}
 			<div className="container">
 				<h6 className="text-slide cyan-text">Projectos Realizados</h6>
 				<ImageGallery />

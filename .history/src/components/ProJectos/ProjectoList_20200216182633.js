@@ -65,7 +65,7 @@ const ProjectoList = () => {
 			<Projectos title="decoracao" img={card.img} pro={id} />
 		));
 	} else {
-		proj = <div>ROUTE NOT FOUND</div>;
+        proj=<div>ROUTE NOT FOUND</div>
 	}
 
 	return (

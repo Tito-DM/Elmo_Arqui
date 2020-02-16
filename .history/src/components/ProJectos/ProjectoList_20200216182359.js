@@ -61,11 +61,7 @@ const ProjectoList = () => {
 			<Projectos title="Escritorio" img={card.img} pro={id} />
 		));
 	} else if (id == "Decoração") {
-		proj = cards.map((card) => (
-			<Projectos title="decoracao" img={card.img} pro={id} />
-		));
 	} else {
-		proj = <div>ROUTE NOT FOUND</div>;
 	}
 
 	return (
