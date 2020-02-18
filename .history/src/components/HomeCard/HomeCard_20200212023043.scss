@@ -1,0 +1,32 @@
+
+
+// home-card
+
+.home-cards{
+    display: grid;
+    color: black;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 20px;
+    & img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    & h3{
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+
+    & a{
+        display: inline-block;
+        padding-top: 10px;
+        font-size: 8px;
+        color: #0067b8;
+        text-transform: uppercase;
+        font-weight: bold;
+        &:hover{
+            
+        }
+    }
+}
+

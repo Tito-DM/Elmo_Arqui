@@ -1,0 +1,16 @@
+
+
+// home-card
+
+.home-cards{
+    margin: 0 !important;
+    padding: 0 !important;
+    display: grid;
+    color: black;
+    grid-template-columns:repeat(3,1fr);
+    g
+    &-img{
+        width: 100%;
+    }
+}
+

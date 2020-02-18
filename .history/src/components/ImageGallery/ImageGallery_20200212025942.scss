@@ -1,0 +1,14 @@
+.img-gallery{
+  ma
+  
+    grid-template-columns: repeat(3,1fr);
+    & img{
+        width: 221px;
+        height: 160px;
+        filter: brightness(0.5);
+        &:hover{
+            filter: none;
+            cursor: pointer;
+        }
+    }
+}

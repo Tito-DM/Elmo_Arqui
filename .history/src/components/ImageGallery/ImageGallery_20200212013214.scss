@@ -1,0 +1,9 @@
+.img-gallery{
+   
+    padding: 0 !important;
+    grid-template-columns: repeat(3,1fr);
+    & img{
+        width: 220px;
+        height: 100;
+    }
+}

@@ -1,0 +1,24 @@
+import React from "react";
+import NavBar from "../src/components/NavBar/NavBar";
+import SlideShow from "../src/components/SlideShow/SlideShow";
+import FloatButtom from "../src/components/FloatButtom/FloatButtom";
+import HomeCardList1 from "./components/HomeCard/HomeCardList1";
+import HomeCardList2 from "./components/HomeCard/HomeCardList2";
+import "./App.scss";
+
+function App() {
+	return (
+		<div className="App">
+			<NavBar />
+			<div className="container">
+			<SlideShow />
+			<HomeCardList1/>
+			<div></div>
+			<
+			</div>
+			<FloatButtom />
+		</div>
+	);
+}
+
+export default App;
