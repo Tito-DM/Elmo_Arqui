@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Elmo_Arqui/static/css/main.d2497865.chunk.css",
-    "main.js": "/Elmo_Arqui/static/js/main.227c099b.chunk.js",
-    "main.js.map": "/Elmo_Arqui/static/js/main.227c099b.chunk.js.map",
+    "main.css": "/Elmo_Arqui/static/css/main.f256f8f8.chunk.css",
+    "main.js": "/Elmo_Arqui/static/js/main.cb9620f9.chunk.js",
+    "main.js.map": "/Elmo_Arqui/static/js/main.cb9620f9.chunk.js.map",
     "runtime-main.js": "/Elmo_Arqui/static/js/runtime-main.b4d78dca.js",
     "runtime-main.js.map": "/Elmo_Arqui/static/js/runtime-main.b4d78dca.js.map",
     "static/css/2.2623327d.chunk.css": "/Elmo_Arqui/static/css/2.2623327d.chunk.css",
-    "static/js/2.090828de.chunk.js": "/Elmo_Arqui/static/js/2.090828de.chunk.js",
-    "static/js/2.090828de.chunk.js.map": "/Elmo_Arqui/static/js/2.090828de.chunk.js.map",
+    "static/js/2.8b54e92a.chunk.js": "/Elmo_Arqui/static/js/2.8b54e92a.chunk.js",
+    "static/js/2.8b54e92a.chunk.js.map": "/Elmo_Arqui/static/js/2.8b54e92a.chunk.js.map",
     "index.html": "/Elmo_Arqui/index.html",
-    "precache-manifest.047359eca009c0163df2cda3c54f0819.js": "/Elmo_Arqui/precache-manifest.047359eca009c0163df2cda3c54f0819.js",
+    "precache-manifest.d06b4a23399bb29bb6ed638fe0293fd5.js": "/Elmo_Arqui/precache-manifest.d06b4a23399bb29bb6ed638fe0293fd5.js",
     "service-worker.js": "/Elmo_Arqui/service-worker.js",
     "static/css/2.2623327d.chunk.css.map": "/Elmo_Arqui/static/css/2.2623327d.chunk.css.map",
-    "static/css/main.d2497865.chunk.css.map": "/Elmo_Arqui/static/css/main.d2497865.chunk.css.map",
-    "static/js/2.090828de.chunk.js.LICENSE.txt": "/Elmo_Arqui/static/js/2.090828de.chunk.js.LICENSE.txt",
+    "static/css/main.f256f8f8.chunk.css.map": "/Elmo_Arqui/static/css/main.f256f8f8.chunk.css.map",
+    "static/js/2.8b54e92a.chunk.js.LICENSE.txt": "/Elmo_Arqui/static/js/2.8b54e92a.chunk.js.LICENSE.txt",
     "static/media/Condominio.jpg": "/Elmo_Arqui/static/media/Condominio.6f0a1496.jpg",
     "static/media/House1.jpg": "/Elmo_Arqui/static/media/House1.93139695.jpg",
     "static/media/casa.jpg": "/Elmo_Arqui/static/media/casa.47b2af04.jpg",
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.b4d78dca.js",
     "static/css/2.2623327d.chunk.css",
-    "static/js/2.090828de.chunk.js",
-    "static/css/main.d2497865.chunk.css",
-    "static/js/main.227c099b.chunk.js"
+    "static/js/2.8b54e92a.chunk.js",
+    "static/css/main.f256f8f8.chunk.css",
+    "static/js/main.cb9620f9.chunk.js"
   ]
 }
